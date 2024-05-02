@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "bioinfomatic-spec"
+version = "0.1.0"
+description = "bioinformatic specification coursera"
+authors = ["vitahoang"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "bioinfomatic_spec"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
