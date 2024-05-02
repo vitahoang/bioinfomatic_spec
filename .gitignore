@@ -112,3 +112,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# idea folder, uncomment if you don't need it
+.idea
+.idea/sonarlint/
+.idea_modules/
+
