@@ -9,9 +9,7 @@ packages = [{include = "bioinfomatic_spec"}]
 
 [tool.poetry.dependencies]
 python = ">=3.9,<4.0"
-dask = "^2024.4.2"
-distributed = "^2024.4.2"
-bokeh = "^3.4.1"
+ray = {extras = ["default"], version = "^2.21.0"}
 
 [build-system]
 requires = ["poetry-core"]
